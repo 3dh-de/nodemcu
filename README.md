@@ -1,5 +1,9 @@
 # NodeMCU tutorials
 
+## Content
+
+`/arduino/` --> example programs (so called "sketches"), can be copied into your local `/Arduino/` directory
+
 ## Install Arduino IDE
 
 Just follow these steps 1-4 to install arduino IDE on Windows: 
