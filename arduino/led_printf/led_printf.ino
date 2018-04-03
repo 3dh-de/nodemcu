@@ -2,9 +2,21 @@
 
 #include <stdio.h>                           // enthält die Funktion printf() ...
 
-char  adresse_strasse[255] = "Musterweg";    // Zeichenkette mit max. 255 Bytes/Zeichen
-int   adresse_hausnummer   = 5;              // Ganzzahl = "Integer"
-char* adresse_ort          = "Musterhausen"; // Zeichenkette mit 12+1 Zeichen 
+#define MAX_STRING_LENGTH  255
+
+const int  max_string_length    = 255;
+
+char       adresse_strasse[255] = "Musterweg\0";  // Zeichenkette mit max. 255 Bytes/Zeichen
+int        adresse_hausnummer   = 5;              // Ganzzahl = "Integer"
+
+#if 1
+  char*      adresse_ort          = "Musterhausen"; // legt Zeichenfolge und 12+1 Bytes autom. an
+#else
+  char*      adresse_ort          = 0;            // identisch wie vorherige Anweisung, nur komplizierter
+  int len = strlen("Musterhausen");   // len = 12
+  adresse_ort = (char*)malloc(len+1);
+  memcpy(adresse_ort, "Musterhausen", len+1);
+#endif
 
 char  adresse_strassen[10][255];             // Array (Liste) von 10x strasse mit 255 Zeichen (Bytes)
  
@@ -68,4 +80,3 @@ void loop() {
   
   delay(1000 - zaehler * 100);
 }
-
