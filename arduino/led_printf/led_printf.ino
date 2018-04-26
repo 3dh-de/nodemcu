@@ -7,7 +7,24 @@
 const int  max_string_length    = 255;
 
 char       adresse_strasse[255] = "Musterweg\0";  // Zeichenkette mit max. 255 Bytes/Zeichen
+char*      pAdresseStrasse2     = 0;
 int        adresse_hausnummer   = 5;              // Ganzzahl = "Integer"
+bool       bRunning             = false;
+
+memset(adresse_strasse, '\0', 255);
+
+if (!adresse_strasse2) {
+  adresse_strasse2 = (char*)malloc(255);
+}
+
+if (adresse_strasse2) {
+  memset(adresse_strasse2, '\0', 255);
+  memcpy(adresse_strasse2, adresse_strasse, 9);
+}
+
+if (adresse_strasse2) {
+  free(adresse_strasse2);
+}
 
 #if 1
   char*      adresse_ort          = "Musterhausen"; // legt Zeichenfolge und 12+1 Bytes autom. an
