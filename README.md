@@ -1,5 +1,7 @@
 # NodeMCU tutorials
 
+## :book: [NodeMCU ESP8266 Tutorial (deutsch)](http://www.mikrocontroller-elektronik.de/nodemcu-esp8266-tutorial-wlan-board-arduino-ide/)
+
 ## Content
 
 :file_folder: `/arduino/` --> example programs (so called "sketches"), can be copied into your local `/Arduino/` directory
