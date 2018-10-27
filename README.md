@@ -1,7 +1,7 @@
 # NodeMCU tutorials
 
 ## :book: [NodeMCU ESP8266 Tutorial (deutsch)](http://www.mikrocontroller-elektronik.de/nodemcu-esp8266-tutorial-wlan-board-arduino-ide/)
-## :warning: Die im Tutorial genannte Adresse für die Arduino-IDE-Voreinstellungen sollte bei Verbindungsfehlern gegen diese ausgetauscht werden:  [https://github.com/esp8266/Arduino/releases/download/2.3.0/package_esp8266com_index.json](https://github.com/esp8266/Arduino/releases/download/2.3.0/package_esp8266com_index.json)
+## :warning: Die im Tutorial genannte Adresse für die Arduino-IDE-Voreinstellungen sollte bei Verbindungsfehlern gegen diese ausgetauscht werden:  [https://github.com/esp8266/Arduino/releases/download/2.4.1/package_esp8266com_index.json](https://github.com/esp8266/Arduino/releases/download/2.4.1/package_esp8266com_index.json)
 
 ## Content
 
